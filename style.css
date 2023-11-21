@@ -1,0 +1,26 @@
+.dogStyle img {
+  width: 200px;
+  height: 300px;
+  border-radius: 20px;
+}
+.dogStyle {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 250px;
+  align-items: center;
+  padding-inline: 20px;
+  border-radius: 10px;
+
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.dogStyle button {
+  width: 40%;
+  margin-bottom: 10px;
+}
+#dog-container {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
